@@ -3,8 +3,11 @@
 import re
 #import pdb; pdb.set_trace()
 
+#regex pattern
+pattern = r'\w*herit\w*'
+
 #gutenberg = open("origin.txt, 'r')
-result = re.compile(r'herit', re.IGNORECASE)
+result = re.compile(pattern, re.IGNORECASE)
 
 list_of_results = []
 
